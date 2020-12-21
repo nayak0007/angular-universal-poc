@@ -9,10 +9,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev:ssr": "ng run angular-universal-poc:serve-ssr",
-    "serve:ssr": "node dist/angular-universal-poc/server/main.js",
+    "serve:ssr": "node dist/server/main.js",
     "build:ssr": "ng build --prod && ng run angular-universal-poc:server:production",
     "prerender": "ng run angular-universal-poc:prerender",
-    "start:heroku": "node dist/angular-universal-poc/server",
+    "start:heroku": "node dist/server",
     "postinstall": "npm run build:ssr"
   },
   "private": true,
